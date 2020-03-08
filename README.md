@@ -1,12 +1,9 @@
 # Personal Webpage
 
-### The 3D model demos are located in another repository **[tsdf](https://github.com/softwarelight/tsdf)** in this supersuperlight account.
-
-### The code are located in another account with my name **[AMAHMM](https://github.com/AnyiRao/AMAHMM)**
-
 ## How to set web
-### ``_sass/_layout.scss`` is for changing web occupation percent 
-### ``_includes/header.html`` is for changing web navigation
-### ``_includes/head.html`` is for changing web icon using this line ``<link rel="my icon" href="nju.ico" />``
+#### ``_sass/_layout.scss`` is to change web occupation percent 
+#### ``_includes/header.html`` is to change web navigation
+#### ``_includes/head.html`` is to change web icon using this line ``<link rel="my icon" href="images/nju.ico" />``
+#### ``_config.yml`` is to config the meta of the website
 
-#### Credit to Jekyll theme
+> Credit to Jekyll theme
