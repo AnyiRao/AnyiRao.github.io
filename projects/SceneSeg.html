@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A Local-to-Global Approach to Multi-modal Movie Scene Segmentation</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="">
+<meta name="keywords" content="multi-modal, multi-modality, dataset, video analysis, scene, segment">
+<link rel="author" href="anyirao.com">
+
+<!-- Fonts and stuff -->
+<link href="./scene_seg/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./scene_seg/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./scene_seg/iconize.css">
+<script async="" src="./scene_seg/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+     <div class="section head">
+		<h1>A Local-to-Global Approach to <br>
+			Multi-modal Movie Scene Segmentation</h1>
+
+	<div class="authors">
+	  <a href="https://anyirao.com/">Anyi Rao</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://eveneveno.github.io/linning/">Linning Xu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://www.xiongyu.me/home/">Yu Xiong</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://mmlab.ie.cuhk.edu.hk">Guodong Xu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://qqhuang.cn/">Qingqiu Huang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://bzhou.ie.cuhk.edu.hk/">Bolei Zhou</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://dahua.me/">Dahua Lin</a>
+	</div>
+
+	<div class="affiliations">
+	  <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div class="venue">IEEE Conference on Computer Vision and Pattern Recognition (<a href="http://cvpr2020.thecvf.com/" target="_blank">CVPR</a>) 2020
+	</div>
+</div>
+      <center><img src="./scene_seg/pipeline.png" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+	<p>
+		Scene, as the crucial unit of storytelling in movies, contains complex activities of actors and their interactions in
+		a physical location. Identifying the composition of scenes
+		serves as a critical step towards visual understanding of
+		movies. This is very challenging – compared to the videos
+		studied in conventional vision problems, e.g. action recognition, the scenes in movies usually contain much richer
+		temporal structures and more complex semantic information. Towards this goal, we scale up the scene segmentation task by building a large video dataset MovieScenes,
+		which contains 21K annotated scene segments from 150
+		movies. We further propose a local-to-global scene segmentation framework, which integrates multi-modal information across three levels, i.e. clip, segment, and movie.
+		This framework is able to distill complex semantics from
+		a hierarchical temporal structures over a long movie, thus
+		providing top-down guidance for scene segmentation. Our
+		experiments show that the proposed network is able to segment a movie into scenes with high accuracy, consistently
+		outperforming previous methods. We also found that pretraining on our MovieScenes can bring significant improvements to the existing video understanding models. 
+	</p>
+      </div>
+
+<div class="section application">
+	<h2>Potential Application</h2>
+	<br>
+	<p>
+	It is going to help divide a long video into semantic continuous short videos and output a structural representation.
+	And it also provides research opportunities towards story/plot understanding in long videos with a semantic unit.
+	</p>
+
+	<h3>Human Interaction Graph Generation</h3>
+	The first line is American Hustle scene segmentation coming from scene detection, where dark blue
+	and light blue intertwine with each other to represent different Scenes. The second to fourth line corresponds to C.B. Christian Bale; B.C.
+	Bradley Cooper; A.A. Amy Adams Scenes occurrence time lines in this movie respectively, where the dark green means occurring while
+	light green does not. The graph below represents their interaction over the story line. The dark red represents a closer relationship while
+	the light red represents a far-away relationship and two demo pictures are shown for closer relationships.
+	<center><img src="./scene_seg/humanint.png" width="80%"></center>
+
+	<h3>Cross Movie Scene Retrieval</h3>
+	Given a specific scene in one movie and we retrieve similar ones in
+	other movies. For example, 
+	we choose a conversation scene and a party scene from Ted (2012) as query, then retrieved scenes
+	from other movies.
+	<center><img src="./scene_seg/retrieval.png" width="80%"></center>
+
+</div>
+
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+	  <ul>
+          <li class="grid">
+	      <div class="griditem">
+		<a href="" target="_blank" class="imageLink" width="70%"><img src="./scene_seg/paper.png"></a><br>
+		  <a href="" target="_blank">Paper [Coming Soon]</a>
+		</div>
+	      </li>
+
+	      <!-- <li class="grid">
+	      <div class="griditem">
+		<a href="" target="_blank" class="imageLink"><img src=""></a><br>
+		  <a href="" target="_blank">Poster [Coming Soon]</a>
+		</div>
+	      </li> -->
+	  
+	    </ul>
+	    </center>
+	    </div>
+	    
+<br>
+
+
+<div class="section code">
+	<h2>Code and Models</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="" target="_blank" class="imageLink"><img src="./common/code.png"></a><br>
+		  <a href="" target="_blank">Code and Models [Coming Soon]</a>
+		</div>
+	      </li>
+
+	    </ul>
+	    </center>
+	    </div>
+
+<br>
+
+<div class="section data">
+	<h2>Datasets</h2>
+	<br>
+	<center>
+		<a href="" target="_blank" class=""></a><img src="./scene_seg/dataset.png" width="70%"></a><br>
+      	<a href="" target="_blank"> Datasets [Coming Soon]</a>
+    </center>
+    </div>
+<br>
+
+<!-- <div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@inproceedings{,
+  title={},
+  author={},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}</pre>
+	  </div>
+      </div> -->
+
+</body></html>
