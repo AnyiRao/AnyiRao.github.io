@@ -45,33 +45,30 @@
       <center><img src="./scene_seg/pipeline.png" border="0" width="90%"></center>
 
 <div class="section abstract">
-	<h2>Abstract</h2>
+	<h2>Overview</h2>
 	<br>
 	<p>
 		Scene, as the crucial unit of storytelling in movies, contains complex activities of actors and their interactions in
-		a physical location. Identifying the composition of scenes
-		serves as a critical step towards visual understanding of
-		movies. This is very challenging – compared to the videos
-		studied in conventional vision problems, e.g. action recognition, the scenes in movies usually contain much richer
-		temporal structures and more complex semantic information. Towards this goal, we scale up the scene segmentation task by building a large video dataset MovieScenes,
-		which contains 21K annotated scene segments from 150
-		movies. We further propose a local-to-global scene segmentation framework, which integrates multi-modal information across three levels, i.e. clip, segment, and movie.
-		This framework is able to distill complex semantics from
-		a hierarchical temporal structures over a long movie, thus
-		providing top-down guidance for scene segmentation. Our
-		experiments show that the proposed network is able to segment a movie into scenes with high accuracy, consistently
-		outperforming previous methods. We also found that pretraining on our MovieScenes can bring significant improvements to the existing video understanding models. 
+		a physical location. Identifying the composition and semantics of scenes
+		serves as a critical step towards visual understanding of complex and long videos such as movies, TV episodes, entertainment shows and variety shows. 
+	</p>
+	<p>
+		This work is going to help divide a long video into semantic continuous short videos and output a structural representation.
+		And it also provides research opportunities towards story/plot understanding in long videos with a semantic unit.
 	</p>
       </div>
 
+<div class="section demo">
+	<h2>Demo</h2>
+		<br>
+		<center>
+			<iframe width="820" height="480" src="https://www.youtube.com/embed/Qo6E_hNn9mc" frameborder="0" allowfullscreen></iframe>
+		</video>
+		</center>
+</div>
+
 <div class="section application">
 	<h2>Potential Application</h2>
-	<br>
-	<p>
-	It is going to help divide a long video into semantic continuous short videos and output a structural representation.
-	And it also provides research opportunities towards story/plot understanding in long videos with a semantic unit.
-	</p>
-
 	<h3>Human Interaction Graph Generation</h3>
 	The first line is American Hustle scene segmentation coming from scene detection, where dark blue
 	and light blue intertwine with each other to represent different Scenes. The second to fourth line corresponds to C.B. Christian Bale; B.C.
