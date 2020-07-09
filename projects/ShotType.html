@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A Unified Framework for Shot Type Classification Based on Subject Centric Lens</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="">
+<meta name="keywords" content="movie, shot type, cinematic style analysis, dataset, computer vision, deep learning">
+<link rel="author" href="anyirao.com">
+
+<!-- Fonts and stuff -->
+<link href="./scene_seg/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./scene_seg/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./scene_seg/iconize.css">
+<script async="" src="./scene_seg/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+     <div class="section head">
+		<h1>A Unified Framework for Shot Type Classification Based on Subject Centric Lens</h1>
+
+	<div class="authors">
+		<a href="https://anyirao.com/">Anyi Rao<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="">Jiaze Wang<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://eveneveno.github.io/lnxu/">Linning Xu<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="">Xuekun Jiang<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://qqhuang.cn/">Qingqiu Huang<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://bzhou.ie.cuhk.edu.hk/">Bolei Zhou<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://dahua.me/">Dahua Lin<sup>1</sup></a>
+	  
+	</div>
+
+	<div class="affiliations">
+	  <a href="http://mmlab.ie.cuhk.edu.hk/">MMLab, The Chinese University of Hong Kong<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://en.cuc.edu.cn/">Communication University of China<sup>2</sup></a>
+	</div>
+
+	<div class="venue">European Conference on Computer Vision (<a href="https://eccv2020.eu/" target="_blank">ECCV</a>) 2020
+	</div>
+</div>
+      <center><img src="./eccv20shot/teaser.jpg" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Overview</h2>
+	<br>
+	Shots are key narrative elements of various videos, e.g. movies
+	and user-generated videos that are thriving over the Internet. The types
+	of shots greatly influence how the underlying ideas, emotions, and messages are expressed. The techniques to analyze shot types is important
+	to the understanding of videos, which has seen increasing demand in
+	real-world applications in this era. Classifying shot type is challenging
+	due to the additional information required beyond the video content,
+	such as the spatial composition of a frame and camera movement. To
+	address these issues, we propose a learning framework Subject Guidance Network (SGNet) for shot type recognition. SGNet separates the
+	subject and background of a shot into two streams, serving as maps to
+	guide scale and movement type classification respectively. To facilitate
+	shot type analysis and model evaluations, we build a large-scale dataset
+	MovieShots, which contains 46K shots from 7K movie trailers with annotations of their scale and movement types. Experiments show that our
+	framework is able to recognize these two attributes of shot accurately,
+	outperforming all the previous methods.
+	</div>
+
+
+
+<div class="section application">
+	<h2>Dataset</h2>
+	<br>
+	<div class="abstract justify-text-between">
+	Shot scale has five categories: 1) long shot (LS) is taken from a long distance,
+	sometimes as far as a quarter of a mile away; 2) full shot (FS) barely includes
+	the human body in full; 3) medium shot (MS) contains a figure from the knees
+	or waist up; 4) close-up shot (CS) concentrates on a relatively small object,
+	showing the face of the hand of a person; (5) extreme close-up shot (ECS) shows
+	even smaller parts such as the image of an eye or a mouth.
+	<br>
+	Shot movement has four categories: 1) in static shot, the camera is fixed but
+	the subject is flexible to move; 2) for motion shot, the camera moves or rotates;
+	3) the camera zooms in for push shot, and 4) zooms out for pull shot. While
+	all the four movement types are widely used in movies, the use of push and
+	pull shots only takes a very small portion. The usage of different shots usually
+	depends on the movie genres and the preferences of the filmmakers.
+	</div>
+	<br>
+	<h3>Prototype</h3>
+	<center><br><img src="./eccv20shot/prototype.jpg" width="80%"></center>
+	<br>
+	<h2>Application: Shot Type Change</h2>
+	<center><br><img src="./eccv20shot/crop_results.jpg" width="80%"></center>
+
+</div>
+
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+		<ul>
+          	<li class="grid">
+	      	<div class="griditem">
+			  <a href="" target="_blank" class="imageLink" >
+				<img src="./eccv20shot/paper.png"></a><br>
+			  &nbsp <a href="https://anyirao.com/files/papers/cvpr2020scene.pdf" target="_blank"> PDF (Comming Soon)</a>
+			</div>
+			</li>
+			
+
+	      	<li class="grid">
+	      	<div class="griditem">
+			<a href="" target="_blank" class="imageLink"><img src="./scene_seg/supp.png"></a><br>
+			<a href="" target="_blank">Supplements (Comming Soon)</a>
+			</div>
+	     	</li>
+		</ul>
+	</center>
+</div>
+<br>
+
+<div class="section code">
+	<h2>Code and Models</h2>
+	<center>
+	  <ul>
+          <li class="grid">
+	      <div class="griditem">
+			<a href="" target="_blank" class="imageLink"><img src="./common/code.png"></a><br>
+		  	<a href="" target="_blank">Code and Models (Comming Soon)</a>
+		  </div>
+	      </li>
+      </ul>
+	</center>
+</div>
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+<pre>@inproceedings{rao2020unified,
+title={A Unified Framework for Shot Type Classification Based on Subject Centric Lens},
+author={Rao, Anyi and Wang, Jiaze and Xu, Linning and Jiang, Xuekun and Huang, Qingqiu and Zhou, Bolei and Lin, Dahua},
+booktitle = {The European Conference on Computer Vision (ECCV)}, 
+year={2020}
+}
+</pre>
+<br>
+	</div>
+</div>
+
+</body></html>
