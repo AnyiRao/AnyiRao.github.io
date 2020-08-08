@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Online Multi-modal Person Search in Videos</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="">
+<meta name="keywords" content="movie, online, person search, computer vision, deep learning">
+<link rel="author" href="anyirao.com">
+
+<!-- Fonts and stuff -->
+<link href="./scene_seg/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./scene_seg/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./scene_seg/iconize.css">
+<script async="" src="./scene_seg/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+     <div class="section head">
+		<h1>Online Multi-modal Person Search in Videos</h1>
+
+	<div class="authors">
+		<a href="https://www.linkedin.com/in/jiangyue-xia-b2055292/">Jiangyue Xia<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://anyirao.com/">Anyi Rao<sup>2</sup>*</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://eveneveno.github.io/lnxu/">Linning Xu<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://qqhuang.cn/">Qingqiu Huang<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://www.cs.tsinghua.edu.cn/publish/csen/4623/2010/20101224194147178943406/20101224194147178943406_.html">Jiangtao Wen<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://dahua.me/">Dahua Lin<sup>1</sup></a>
+	</div>
+
+	<div class="affiliations">
+		<a href="http://en.cuc.edu.cn/">Tsinghua University<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://mmlab.ie.cuhk.edu.hk/">MMLab, The Chinese University of Hong Kong<sup>2</sup></a>
+	</div>
+
+	<div class="venue">European Conference on Computer Vision (<a href="https://eccv2020.eu/" target="_blank">ECCV</a>) 2020
+	</div>
+</div>
+      <center><img src="./eccv20onlineperson/teaser.jpg" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Overview</h2>
+	<br>
+	<div class="justify-text-between">
+	The task of searching certain people in videos has seen increasing potential in real-world applications,
+	such as video organization and editing. Most existing approaches are devised to work in an offline manner,
+	where identifies can only be inferred after an entire video is examined. This working manner precludes such methods from
+	being applied to online services or those applications that require real-time responses.
+	In this paper, we propose an online person search framework, which can recognize people in a video on the fly.
+	This framework maintains a multi-modal memory bank at its heart as the basis for person recognition, and updates it dynamically
+	with a policy obtained by reinforcement learning. Our experiments on a large movie dataset show that the proposed method is effective,
+	not only achieving remarkable improvements over strong online schemes but also outperforming offline methods.
+	</div>
+</div>
+
+
+
+<div class="section application">
+	<h2>Online Multi-modal Searching Machine</h2>
+	<br>
+	<div class="justify-text-between">
+	Given the portraits of a list of casts, our goal is to search them in a sequential movie with an online fashion following the human behaviors. To tackle this
+	challenging problem, we propose a novel online multi-modal searching machine
+	(OMS). 
+	<br>
+	There are four key components in OMS, i.e.
+	multimodal feature representations (MFR), a dynamic memory bank (DMB),
+	an uncertain instance cache (UIC) and a controller. Each instance, represented by
+	multi-modal features, is compared with the exemplars stored in the memory
+	bank to judge its identity. The controller then determines whether this instance
+	should be used to update memory or put into the uncertain instance cache for
+	later comparisons. The memory bank and the uncertain instance cache are dynamically updated over time,
+	with a strategy operated by the controller. All
+	these components together build an “intelligent machine” to watch a movie and
+	gradually recognize the characters like humans do.
+	</div>
+	<br>
+
+</div>
+
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+		<ul>
+          	<li class="grid">
+	      	<div class="griditem">
+			  <a href="" target="_blank" class="imageLink" >
+				<img src="./eccv20onlineperson/paper.png"></a><br>
+			  &nbsp <a href="https://anyirao.com/files/papers/eccv2020onlineperson.pdf" target="_blank"> PDF (Comming Soon)</a>
+			</div>
+			</li>
+			
+
+			<li class="grid">
+			 <div class="griditem">
+				<a href="" target="_blank"
+					class="image-link">
+					<img src="./common/github_icon.png">
+					<br />
+					<span class="text-primary abs-mg-top-ti">Code [Comming Soon]</span></a>
+			</div>
+			</li>
+		</ul>
+	</center>
+</div>
+<br>
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+<pre>@inproceedings{xia2020online,
+title={Online Multi-modal Person Search in Videos},
+author={Xia, Jiangyue and Rao, Anyi and Xu, Linning and Huang, Qingqiu and Wen, Jiangtao and Lin, Dahua},
+booktitle = {The European Conference on Computer Vision (ECCV)}, 
+year={2020}
+}
+</pre>
+<br>
+	</div>
+</div>
+
+</body></html>
