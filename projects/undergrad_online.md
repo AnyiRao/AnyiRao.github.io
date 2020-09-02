@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The whole online courses I took
+title: The whole online courses I took in my undergrad
 permalink: /all_undergrad_online/
 ---
 
