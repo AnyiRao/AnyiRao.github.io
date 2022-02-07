@@ -1,13 +1,13 @@
 ---
 layout: page
-title: The whole online courses I took in my undergrad
+title: The full list of online courses
 permalink: /all_undergrad_online/
 ---
 
 
 ![Stanford]({{site.baseurl}}/images/moreStanford.gif)
 * Andrew Ng. CS229: Machine Learning. Stanford.
-* Andrew Ng et al. UFLDL: Deep Learning Tutorial. Stanford. [[Proposal]]({{site.baseurl}}/papers/ML_Proposal.pdf)
+* Andrew Ng et al. UFLDL: Deep Learning Tutorial. Stanford.
 * Silvio Savarese. CS231A: Computer Vision: from 3D reconstruction to recognition. Stanford.
 * Fei-Fei Li, Andrej Karpathy, and Justin Johnson. CS231N: Convolutional Neural Networks for Visual Recognition. Stanford.
 * Daphne Koller. CS228: Probabilistic Graphical Models. Stanford.
