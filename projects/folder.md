@@ -21,7 +21,7 @@ IEEE Transactions on Multimedia, (**TMM**), 2021
 
 
 [BlockPlanner: City Block Generation with Vectorized Graph Representation]()\\
-Linning Xu*, Yuanbo Xiangli*, **Anyi Rao**, Nanxuan Zhao, Bo Dai, Ziwei Liu, Dahua Lin
+Linning Xu*, Yuanbo Xiangli*, **Anyi Rao**, Nanxuan Zhao, Bo Dai, Ziwei Liu, Dahua Lin\\
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2021
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_BlockPlanner_City_Block_Generation_With_Vectorized_Graph_Representation_ICCV_2021_paper.pdf) [[Webpage]](https://city-super.github.io/blockplanner/) [[Supplements]](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Xu_BlockPlanner_City_Block_ICCV_2021_supplemental.pdf)
 
