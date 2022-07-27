@@ -1,8 +1,20 @@
 ---
 layout: page
 title: 
-permalink: /folder/
+permalink: /publication/
 ---
+
+[Shoot360: Normal View Video Creation from City Panorama Footage]()\\
+**Anyi Rao**, Linning Xu, and Dahua Lin \\
+ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), 2022 \\
+[[Paper]](https://dl.acm.org/doi/abs/10.1145/3528233.3530702) [[Webpage]](https://city-super.github.io/shoot360/)
+
+
+[BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering](https://city-super.github.io/citynerf/img/1947.pdf)\\
+Yuanbo Xiangli*, Linning Xu*, Xingang Pan, Nanxuan Zhao, **Anyi Rao**, Christian Theobalt, Bo Dai, and Dahua Lin \\
+European Conference on Computer Vision (**ECCV**), 2022
+[[Paper]](https://arxiv.org/abs/2112.05504) [[Webpage]](https://city-super.github.io/citynerf/) [[Supplements]](https://city-super.github.io/citynerf/img/supp.pdf)
+ [[Code]](https://github.com/city-super/BungeeNeRF)
 
 [AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation]()\\
 Xueyi Liu, Xiaomeng Xu, **Anyi Rao**, Chuang Gan, and Li Yi \\
