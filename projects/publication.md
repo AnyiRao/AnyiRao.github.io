@@ -4,6 +4,23 @@ title:
 permalink: /publication/
 ---
 
+
+
+[Dynamic Storyboard Generation in an Engine-based Virtual Environments for Video Production]()\\
+**Anyi Rao**, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai
+\\
+ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), Poster, 2023 \\
+[[Paper]](https://arxiv.org/abs/2301.12688) [[Webpage]](https://virtualfilmstudio.github.io/)
+
+
+
+[HireVAE: An Online and Adaptive Factor Model Based on Hierarchical and Regime-Switch VAE]()\\
+Zikai Wei, **Anyi Rao**, Bo Dai, Dahua Lin\\
+International Joint Conference on Artificial Intelligence, (**IJCAI**), 2023
+ \\
+[[Paper]](https://arxiv.org/abs/2306.02848) [[Code]]()
+
+
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences]()\\
 Yujie Zhou, Haodong Duan, **Anyi Rao**, Bing Su, and Jiaqi Wang \\
 AAAI Conference on Artificial Intelligence, (**AAAI**), 2023 <span style="color:orange">*Oral*</span>
