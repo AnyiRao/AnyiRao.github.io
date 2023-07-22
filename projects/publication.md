@@ -6,11 +6,11 @@ permalink: /publication/
 
 
 
-[Dynamic Storyboard Generation in an Engine-based Virtual Environments for Video Production]()\\
+[Dynamic Storyboard Generation in an Engine-based Virtual Environments for Video Production](https://arxiv.org/abs/2301.12688)\\
 **Anyi Rao**, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai
 \\
 ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), Poster, 2023 \\
-[[Paper]](https://arxiv.org/abs/2301.12688) [[Webpage]](https://virtualfilmstudio.github.io/)
+[[Paper]](https://dl.acm.org/doi/abs/10.1145/3588028.3603647) [[Webpage]](https://virtualfilmstudio.github.io/)
 
 
 
@@ -28,7 +28,7 @@ AAAI Conference on Artificial Intelligence, (**AAAI**), 2023 <span style="color:
 [[Paper]](https://arxiv.org/abs/2302.09018) [[Code]](https://github.com/YujieOuO/PSTL)
 
 
-[Shoot360: Normal View Video Creation from City Panorama Footage]()\\
+[Shoot360: Normal View Video Creation from City Panorama Footage](https://anyirao.com/files/papers/sig2022shoot360.pdf)\\
 **Anyi Rao**, Linning Xu, and Dahua Lin \\
 ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), 2022 \\
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3528233.3530702) [[Webpage]](https://city-super.github.io/shoot360/)
