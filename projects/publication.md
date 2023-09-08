@@ -10,7 +10,7 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023 <span styl
 [[Paper]](https://arxiv.org/abs/2302.05543) [[Webpage]](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
 
-[Automated Conversion of Music Videos into Lyric Videos]("https://arxiv.org/abs/2308.14922")
+[Automated Conversion of Music Videos into Lyric Videos]("https://arxiv.org/abs/2308.14922")\\
 Jiaju Ma, **Anyi Rao**, Li-Yi Wei, Rubaiat Habib Kazi, Hijung Valentina Shin, Maneesh Agrawala\\
 User Interface Software and Technology (**UIST**), 2023 \\
 [[Paper]](https://arxiv.org/abs/2308.14922) [[Webpage]](https://majiaju.io/lyric-video)
