@@ -37,33 +37,33 @@ International Joint Conference on Artificial Intelligence (**IJCAI**), 2023\\
 
 
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences]()\\
-Yujie Zhou, Haodong Duan, **Anyi Rao**, Bing Su, and Jiaqi Wang \\
+Yujie Zhou, Haodong Duan, **Anyi Rao**, Bing Su, Jiaqi Wang \\
 AAAI Conference on Artificial Intelligence (**AAAI**), 2023 <span style="color:orange">*Oral*</span>
  \\
 [[Paper]](https://arxiv.org/abs/2302.09018) [[Code]](https://github.com/YujieOuO/PSTL)
 
 
 [Shoot360: Normal View Video Creation from City Panorama Footage](https://anyirao.com/files/papers/sig2022shoot360.pdf)\\
-**Anyi Rao**, Linning Xu, and Dahua Lin \\
+**Anyi Rao**, Linning Xu, Dahua Lin \\
 ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference (**SIGGRAPH**), 2022 \\
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3528233.3530702) [[Webpage]](https://city-super.github.io/shoot360/)
 
 
 [BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering](https://city-super.github.io/citynerf/img/1947.pdf)\\
-Yuanbo Xiangli*, Linning Xu*, Xingang Pan, Nanxuan Zhao, **Anyi Rao**, Christian Theobalt, Bo Dai, and Dahua Lin \\
+Yuanbo Xiangli*, Linning Xu*, Xingang Pan, Nanxuan Zhao, **Anyi Rao**, Christian Theobalt, Bo Dai, Dahua Lin \\
 European Conference on Computer Vision (**ECCV**), 2022 \\
 [[Paper]](https://arxiv.org/abs/2112.05504) [[Webpage]](https://city-super.github.io/citynerf/) [[Supplements]](https://city-super.github.io/citynerf/img/supp.pdf)
  [[Code]](https://github.com/city-super/BungeeNeRF)
 
 
 [AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation]()\\
-Xueyi Liu, Xiaomeng Xu, **Anyi Rao**, Chuang Gan, and Li Yi \\
+Xueyi Liu, Xiaomeng Xu, **Anyi Rao**, Chuang Gan, Li Yi \\
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2022 \\
 [[Paper]](https://arxiv.org/abs/2203.06558) [[Webpage]](https://autogpart.github.io/) [[Code]](https://github.com/Meowuu7/AutoGPart)
 
 
 [A Coarse-to-Fine Framework for Automatic Video Unscreen]({{site.baseurl}}/files/papers/tmm2022unscreen.pdf)\\
-**Anyi Rao**, Linning Xu, Zhizhong Li, Qingqiu Huang, Zhanghui Kuang, Wayne Zhang, and Dahua Lin\\
+**Anyi Rao**, Linning Xu, Zhizhong Li, Qingqiu Huang, Zhanghui Kuang, Wayne Zhang, Dahua Lin\\
 IEEE Transactions on Multimedia (**TMM**), 2022 \\
 [[Paper]](https://ieeexplore.ieee.org/document/9709668)
 [[Webpage]](https://anyirao.com/files/projects/tmm22unscreen/)
