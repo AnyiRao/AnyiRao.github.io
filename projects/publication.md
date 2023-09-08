@@ -7,13 +7,13 @@ permalink: /publication/
 [ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models]("https://arxiv.org/abs/2302.05543")\\
 Lvmin Zhang, **Anyi Rao**, Maneesh Agrawala\\
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023 <span style="color:orange">*Oral*</span>\\
-[[Paper]]("https://arxiv.org/abs/2302.05543") [[Webpage]]("https://github.com/lllyasviel/ControlNet-v1-1-nightly")
+[[Paper]](https://arxiv.org/abs/2302.05543) [[Webpage]](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
 
 [Automated Conversion of Music Videos into Lyric Videos]("https://arxiv.org/abs/2308.14922")
 Jiaju Ma, **Anyi Rao**, Li-Yi Wei, Rubaiat Habib Kazi, Hijung Valentina Shin, Maneesh Agrawala\\
 User Interface Software and Technology (**UIST**), 2023 \\
-[[Paper]]("https://arxiv.org/abs/2308.14922") [[Webpage]]("https://majiaju.io/lyric-video")
+[[Paper]](https://arxiv.org/abs/2308.14922) [[Webpage]](https://majiaju.io/lyric-video)
 
 
 [Zero-shot Skeleton-based Action Recognition via Mutual Information Estimation and Maximization]()\\
