@@ -4,33 +4,48 @@ title:
 permalink: /publication/
 ---
 
+[ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models]("https://arxiv.org/abs/2302.05543")\\
+Lvmin Zhang, **Anyi Rao**, Maneesh Agrawala\\
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023 <span style="color:orange">*Oral*</span>\\
+[[Paper]]("https://arxiv.org/abs/2302.05543") [[Webpage]]("https://github.com/lllyasviel/ControlNet-v1-1-nightly")
+
+
+[Automated Conversion of Music Videos into Lyric Videos]("https://arxiv.org/abs/2308.14922")
+Jiaju Ma, **Anyi Rao**, Li-Yi Wei, Rubaiat Habib Kazi, Hijung Valentina Shin, Maneesh Agrawala\\
+User Interface Software and Technology (**UIST**), 2023 \\
+[[Paper]]("https://arxiv.org/abs/2308.14922") [[Webpage]]("https://majiaju.io/lyric-video")
+
+
+[Zero-shot Skeleton-based Action Recognition via Mutual Information Estimation and Maximization]()\\
+Yujie Zhou, Wenwen Qiang, **Anyi Rao**, Ning Lin, Bing Su, Jiaqi Wang\\
+ACM International Conference on Multimedia (**ACM MM**), 2023 \\
+[[Paper]](https://arxiv.org/abs/2308.03950) [[Webpage]](https://github.com/YujieOuO/SMIE)
 
 
 [Dynamic Storyboard Generation in an Engine-based Virtual Environments for Video Production](https://arxiv.org/abs/2301.12688)\\
 **Anyi Rao**, Xuekun Jiang, Yuwei Guo, Linning Xu, Lei Yang, Libiao Jin, Dahua Lin, Bo Dai
 \\
-ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), Poster, 2023 \\
+ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference (**SIGGRAPH**), Poster, 2023 \\
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3588028.3603647) [[Webpage]](https://virtualfilmstudio.github.io/)
 
 
 
 [HireVAE: An Online and Adaptive Factor Model Based on Hierarchical and Regime-Switch VAE]()\\
 Zikai Wei, **Anyi Rao**, Bo Dai, Dahua Lin\\
-International Joint Conference on Artificial Intelligence, (**IJCAI**), 2023
- \\
+International Joint Conference on Artificial Intelligence (**IJCAI**), 2023\\
 [[Paper]](https://arxiv.org/abs/2306.02848) [[Code]]()
 
 
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences]()\\
 Yujie Zhou, Haodong Duan, **Anyi Rao**, Bing Su, and Jiaqi Wang \\
-AAAI Conference on Artificial Intelligence, (**AAAI**), 2023 <span style="color:orange">*Oral*</span>
+AAAI Conference on Artificial Intelligence (**AAAI**), 2023 <span style="color:orange">*Oral*</span>
  \\
 [[Paper]](https://arxiv.org/abs/2302.09018) [[Code]](https://github.com/YujieOuO/PSTL)
 
 
 [Shoot360: Normal View Video Creation from City Panorama Footage](https://anyirao.com/files/papers/sig2022shoot360.pdf)\\
 **Anyi Rao**, Linning Xu, and Dahua Lin \\
-ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference, (**SIGGRAPH**), 2022 \\
+ACM Special Interest Group on Computer Graphics and Interactive Techniques Conference (**SIGGRAPH**), 2022 \\
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3528233.3530702) [[Webpage]](https://city-super.github.io/shoot360/)
 
 
@@ -43,20 +58,20 @@ European Conference on Computer Vision (**ECCV**), 2022 \\
 
 [AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation]()\\
 Xueyi Liu, Xiaomeng Xu, **Anyi Rao**, Chuang Gan, and Li Yi \\
-IEEE/CVF Conference on Computer Vision and Pattern Recognition, (**CVPR**), 2022 \\
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2022 \\
 [[Paper]](https://arxiv.org/abs/2203.06558) [[Webpage]](https://autogpart.github.io/) [[Code]](https://github.com/Meowuu7/AutoGPart)
 
 
 [A Coarse-to-Fine Framework for Automatic Video Unscreen]({{site.baseurl}}/files/papers/tmm2022unscreen.pdf)\\
 **Anyi Rao**, Linning Xu, Zhizhong Li, Qingqiu Huang, Zhanghui Kuang, Wayne Zhang, and Dahua Lin\\
-IEEE Transactions on Multimedia, (**TMM**), 2022 \\
+IEEE Transactions on Multimedia (**TMM**), 2022 \\
 [[Paper]](https://ieeexplore.ieee.org/document/9709668)
 [[Webpage]](https://anyirao.com/files/projects/tmm22unscreen/)
 
 
 [Jointly Learning the Attributes and Composition of Shots for Boundary Detection in Videos]({{site.baseurl}}/files/papers/tmm2021shot.pdf)\\
 Xuekun Jiang, Libiao Jin, **Anyi Rao**+(corresponding), Linning Xu, Dahua Lin\\
-IEEE Transactions on Multimedia, (**TMM**), 2021 \\
+IEEE Transactions on Multimedia (**TMM**), 2021 \\
 [[Paper]](https://ieeexplore.ieee.org/document/9464668) [[Webpage]](https://zweipa.github.io/TMM_SCTSNet/)
 
 
