@@ -4,9 +4,9 @@ title:
 permalink: /publication/
 ---
 
-[ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models]("https://arxiv.org/abs/2302.05543")\\
+[Adding Conditional Control to Text-to-Image Diffusion Models]("https://arxiv.org/abs/2302.05543")\\
 Lvmin Zhang, **Anyi Rao**, Maneesh Agrawala\\
-IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023 <span style="color:orange">*Oral*</span>\\
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023 <span style="color:orange">*Marr Prize: Best Paper Award*</span>\\
 [[Paper]](https://arxiv.org/abs/2302.05543) [[Webpage]](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
 
