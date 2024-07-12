@@ -1,10 +1,8 @@
 ---
 layout: page
-title: 
+title: Opportunities with Assistant Professor Anyi Rao ✨
 permalink: /openings/
 ---
-
-## Opportunities with Assistant Professor Anyi Rao ✨
 
 ### Who will you work with? 🔥
 
