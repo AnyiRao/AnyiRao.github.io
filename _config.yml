@@ -8,7 +8,7 @@
 # Site settings
 title: Anyi Rao
 email: 
-description: Anyi Rao receives the PhD from Multimedia Laboratory in the Chinese University of Hong Kong, advised by Dahua Lin and Bolei Zhou. # this means to ignore newlines until "baseurl:"
+description: Anyi Rao is an Assistant Professor at HKUST. # this means to ignore newlines until "baseurl:"
   
 url: # the base hostname & protocol for your site
 
@@ -19,13 +19,18 @@ analytics:
 disqus-shortname:
 
 #color scheme
-color-1: '#E64C3C'
-color-2: '#F0C419' 
+# Tiffany Blue 81D8D0
+# HKUST Blue
+color-1: '#1993f0' # deep blue
+# color-1: '#19a9f0' # shallow blue
+# Stanford Red
+# color-1: '#E64C3C' 
+color-2: '#19a9f0'
 
 # Author pictre 100x100 --> keep it inside img folder.
 author-image: 
 author-name: 'Anyi Rao'
-author-about: 'Enjoy life!' 
+author-about: '' 
 
 # Build settings
 markdown: kramdown
